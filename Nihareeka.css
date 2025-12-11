@@ -1,0 +1,63 @@
+  h1 {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+   p::first-line {
+    color: blue;
+    font-size: 18px;
+    font-weight: 100;
+}           
+
+p::first-letter{
+    font-size: 200px;
+    font-weight: bold;
+    color: green;
+}
+
+body {
+    background-color: rgb(174, 242, 242);
+}
+
+ul::before {
+    content: "The";
+    font-size: 20px;
+    color: purple;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: blue;
+    display: inline-block;
+}
+
+ol::after {
+    content: "Thank you";
+    font-size: 20px;
+    color: orange;
+    font-style: italic;
+}
+
+.Submit {
+    color: blue;
+}
+
+button:hover {
+    background-color: rgb(253, 6, 130);
+    cursor: pointer;
+}
+
+a {
+    color: rgb(42, 21, 205);
+}
+
+a:visited {
+    color: red;
+}
+
+input::placeholder {
+    color: red;
+    font-weight: 800;
+    font-style: italic;
+}
